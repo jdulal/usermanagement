@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">User Management</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_user_login">Login Status</string>
+    <string name="emptyString" />
+    <string name="title_activity_sign_up">New User Sign Up</string>
+    <string name="title_activity_user_list">Registered Users</string>
+</resources>

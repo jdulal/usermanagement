@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#61cca5"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:layout_marginTop="10dp"
+    tools:context="np.com.jdulal.usermanagement.MainActivity"
+    android:weightSum="1">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Login Information"
+        android:textColor="#fff"
+        android:id="@+id/textView"
+        />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtUsername"
+        android:hint="Enter Your Username..."
+        android:layout_marginTop="15dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:id="@+id/txtPassword"
+        android:hint="Enter Password..."
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Log In"
+        android:id="@+id/btnLogin"
+        android:backgroundTint="#ffffb320"
+        android:onClick="onButtonClick" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="New User Sign Up"
+        android:id="@+id/btnSignUp"
+        android:onClick="onButtonClick" />
+
+    <ImageButton
+        android:layout_width="215dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnUserList"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/userlist"
+        android:layout_weight="0.03"
+        android:onClick="onButtonClick" />
+
+
+</LinearLayout>
